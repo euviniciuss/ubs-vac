@@ -10,8 +10,8 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: 'Diploma Digital',
-  description: 'Envie diplomas de maneira simples e instuitiva'
+  title: 'UBS VAC',
+  description: 'Vacinação de forma simples'
 }
 
 export default function RootLayout({

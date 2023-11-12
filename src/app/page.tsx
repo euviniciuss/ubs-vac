@@ -1,7 +1,10 @@
+import { HomeSection } from '@/presentation/modules/home/components/HomeSection/HomeSection'
+import { Page } from '@/presentation/shared/components/layout'
+
 export default function Home() {
   return (
-    <div>
-      <h1>Hello Home</h1>
-    </div>
+    <Page>
+      <HomeSection />
+    </Page>
   )
 }
