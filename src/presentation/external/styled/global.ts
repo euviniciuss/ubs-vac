@@ -16,8 +16,8 @@ export const GlobalStyle = createGlobalStyle`
 
   body {
     font-size: 1rem;
-    background-color: #151619;
-    color: #FFFFFF;
+    background-color: #F8F8F8;
+    color: #1F1F1F;
     width: 100vw;
     height: 100%;
     text-rendering: optimizelegibility;

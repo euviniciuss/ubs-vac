@@ -1,18 +1,17 @@
 export const theme = {
   colors: {
     white: '#FFFFFF',
+    white800: '#F8F8F8',
     black: '#000000',
-    red: '#F12828',
-    green: '#28F13C',
-    purple: '#A45EE5',
-    gray50: '#F6F6F6',
-    gray100: '#AEAECC',
-    gray600: '#303138',
-    gray650: '#25262D',
-    gray700: '#212227',
-    gray800: '#1E1F23',
-    gray900: '#1A1B1F',
-    gray950: '#151619'
+    black500: '#1F1F1F',
+    blue800: '#1040AB',
+    blue700: '#3464CF',
+    blue50: '#3464CF',
+    blue100: '#3464CF',
+    blue200: '#59C9F3',
+    green400: '#A0B33B',
+    yellow600: '#FAC90D',
+    red700: '#ED1F27'
   },
   fontSize: {
     text_3xs: '1.2rem',
