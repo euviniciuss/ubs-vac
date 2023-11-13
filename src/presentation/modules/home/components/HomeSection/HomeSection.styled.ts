@@ -66,22 +66,6 @@ export const Actions = styled.div`
   justify-content: center;
   gap: 2.8rem;
 
-  button {
-    width: 100%;
-    height: 5.6rem;
-    padding: 0.8rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 1rem;
-    border: 1px solid ${theme.colors.white};
-    background-color: transparent;
-    color: ${theme.colors.white};
-    font-size: 1.6rem;
-    font-weight: 600;
-    cursor: pointer;
-  }
-
   p {
     color: ${theme.colors.white};
     opacity: 0.8;

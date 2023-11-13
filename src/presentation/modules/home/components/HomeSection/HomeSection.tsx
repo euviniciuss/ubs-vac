@@ -1,6 +1,8 @@
 import Image from 'next/image'
 import Link from 'next/link'
 
+import { Button } from '@/presentation/shared/components/form'
+
 import PeopleIllustration from '@/public/people.svg'
 
 import * as S from './HomeSection.styled'
@@ -27,7 +29,7 @@ export function HomeSection() {
             />
 
             <S.Actions>
-              <button>Faça seu cadastro</button>
+              <Button color="secondary">Faça seu cadastro</Button>
 
               <p>
                 Já posssui uma conta? <Link href="/">Faça o login!</Link>
