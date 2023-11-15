@@ -76,6 +76,7 @@ export const Actions = styled.div`
       opacity: 0.8;
       font-size: 1.4rem;
       font-style: italic;
+      text-decoration-line: underline;
     }
   }
 `

@@ -23,6 +23,10 @@ export const GlobalStyle = createGlobalStyle`
     text-rendering: optimizelegibility;
     -webkit-font-smoothing: antialiased;
     overflow-x: hidden;
+
+    a {
+      text-decoration: none;
+    }
   }
 
   @media (max-width: 720px) {
