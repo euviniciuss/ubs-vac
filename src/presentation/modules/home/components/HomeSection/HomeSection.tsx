@@ -1,43 +1,65 @@
 import Image from 'next/image'
-import Link from 'next/link'
+import {
+  PiCalendarCheckFill,
+  PiSyringeFill,
+  PiBabyFill,
+  PiClipboardTextFill,
+  PiPlusBold
+} from 'react-icons/pi'
 
 import { Button } from '@/presentation/shared/components/form'
 
-import PeopleIllustration from '@/public/people.svg'
+import Ilustration from '@/public/home_illustration.svg'
 
+import { Card } from '../Card/Card'
 import * as S from './HomeSection.styled'
 
 export function HomeSection() {
   return (
     <S.Container>
-      <S.Content>
-        <S.Message>
-          <h1>Bem-vindo!</h1>
+      <S.PresenationContainer>
+        <S.TextContainer>
+          <h1>Olá, Usuário.</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur. Viverra nibh a dolor sit
-            gravida aliquet.
+            Lorem ipsum dolor sit amet consectetur. Aliquet neque lacus leo
+            risus congue facilisi eu proin.
           </p>
-        </S.Message>
+        </S.TextContainer>
 
-        <S.ActionContainer>
-          <S.ActionContent>
-            <Image
-              src={PeopleIllustration}
-              alt="People Illustration"
-              width={301}
-              height={301}
-            />
+        <Image src={Ilustration} alt="Ilustração home" />
+      </S.PresenationContainer>
 
-            <S.Actions>
-              <Button color="secondary">Faça seu cadastro</Button>
+      <S.CardsContainer>
+        <Card href="/">
+          <PiCalendarCheckFill size={54} color="#3464CF" />
 
-              <p>
-                Já posssui uma conta? <Link href="/">Faça o login!</Link>
-              </p>
-            </S.Actions>
-          </S.ActionContent>
-        </S.ActionContainer>
-      </S.Content>
+          <Card.Title>Calendário Vacinal</Card.Title>
+        </Card>
+
+        <Card href="/">
+          <PiSyringeFill size={38} color="#3464CF" />
+
+          <Card.Title>Vacinação</Card.Title>
+        </Card>
+
+        <Card href="/">
+          <PiBabyFill size={54} color="#3464CF" />
+
+          <Card.Title>Perfil da Criança</Card.Title>
+        </Card>
+
+        <Card href="/">
+          <PiClipboardTextFill size={38} color="#3464CF" />
+
+          <Card.Title>Agendamento</Card.Title>
+        </Card>
+      </S.CardsContainer>
+
+      <S.Action>
+        <Button color="secondary" size="small" textColor="blue">
+          Acionar criança <PiPlusBold color="#3464CF" />
+        </Button>
+      </S.Action>
     </S.Container>
   )
 }

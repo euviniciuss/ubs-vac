@@ -4,79 +4,55 @@ import { theme } from '@/presentation/external/styled'
 
 import { styled } from 'styled-components'
 
-export const Container = styled.main`
+export const Container = styled.section`
   width: 100%;
-  height: 100vh;
-  background-color: ${theme.colors.white800};
-`
-
-export const Content = styled.section`
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-`
-
-export const Message = styled.div`
-  width: 100%;
-  height: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
-  color: ${theme.colors.blue800};
-  gap: 0.6rem;
-  padding-top: 9.8rem;
+`
+
+export const PresenationContainer = styled.div`
+  img {
+    width: 100vw;
+    height: auto;
+    object-fit: cover;
+  }
+`
+
+export const TextContainer = styled.span`
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+
+  position: absolute;
+  top: 47px;
+  left: 29px;
 
   h1 {
-    font-size: 3.2rem;
-    font-weight: bold;
-  }
-
-  p {
-    font-size: 2rem;
-  }
-`
-
-export const ActionContainer = styled.section`
-  width: 100vw;
-  height: 50%;
-  background-color: ${theme.colors.blue700};
-`
-
-export const ActionContent = styled.div`
-  width: 100%;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  padding: 0 5.2rem;
-
-  img {
-    margin-top: -24rem;
-  }
-`
-
-export const Actions = styled.div`
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 2.8rem;
-
-  p {
     color: ${theme.colors.white};
-    opacity: 0.8;
-    font-size: 1.4rem;
-
-    a {
-      color: ${theme.colors.white};
-      opacity: 0.8;
-      font-size: 1.4rem;
-      font-style: italic;
-      text-decoration-line: underline;
-    }
+    font-weight: 700;
+    font-size: 3.2rem;
   }
+
+  p {
+    font-size: 1.6rem;
+    max-width: 30rem;
+    color: ${theme.colors.white};
+  }
+`
+
+export const CardsContainer = styled.div`
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2.8rem;
+`
+export const Action = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  margin-top: 2.8rem;
 `
