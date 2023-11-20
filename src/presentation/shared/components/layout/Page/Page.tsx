@@ -1,5 +1,6 @@
 import { ReactNode } from 'react'
 
+import { Header } from '../Header/Header'
 import * as S from './Page.styled'
 
 type Props = {
@@ -7,9 +8,7 @@ type Props = {
 }
 
 export function Page({ children }: Props) {
-  return (
-    <S.Container>
-      <S.Content>{children}</S.Content>
-    </S.Container>
-  )
+  return <S.Container>{children}</S.Container>
 }
+Page.Main = S.Content
+Page.Header = Header

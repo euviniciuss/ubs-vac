@@ -3,8 +3,8 @@ import { Page } from '@/presentation/shared/components/layout'
 
 export default function Home() {
   return (
-    <Page>
+    <Page.Main>
       <HomeSection />
-    </Page>
+    </Page.Main>
   )
 }
