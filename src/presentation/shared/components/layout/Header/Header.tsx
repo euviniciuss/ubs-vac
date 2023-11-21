@@ -1,9 +1,14 @@
 import Link from 'next/link'
+import { ReactNode } from 'react'
 import { PiArrowLeftBold } from 'react-icons/pi'
 
 import * as S from './Header.styled'
 
-export function Header() {
+type Props = {
+  children: ReactNode
+}
+
+export function Header({ children }: Props) {
   return (
     <S.Container>
       <S.Content>
@@ -11,8 +16,10 @@ export function Header() {
           <PiArrowLeftBold size={24} color="#fff" />
         </Link>
 
-        <S.Title>Calendário Vacinal</S.Title>
+        {children}
       </S.Content>
     </S.Container>
   )
 }
+
+Header.Title = S.Title
