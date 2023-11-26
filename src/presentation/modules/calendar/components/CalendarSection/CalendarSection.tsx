@@ -2,9 +2,26 @@ import Image from 'next/image'
 
 import CalendarIllustration from '@/public/calendar-illustration.svg'
 
+import { Card } from '../Card/Card'
+import { ScrollView } from '../ScrollView/ScrollView'
 import * as S from './CalendarSection.styled'
 
 export function CalendarSection() {
+  const months = [
+    'Janeiro',
+    'Fevereiro',
+    'Março',
+    'Abril',
+    'Maio',
+    'Junho',
+    'Julho',
+    'Agosto',
+    'Setembro',
+    'Outubro',
+    'Novembro',
+    'Dezembro'
+  ]
+
   return (
     <S.Container>
       <S.Banner>
@@ -17,6 +34,11 @@ export function CalendarSection() {
 
         <Image src={CalendarIllustration} alt="Calendar" width={134} />
       </S.Banner>
+
+      <ScrollView months={months} />
+      <Card></Card>
+      <Card></Card>
+      <Card></Card>
     </S.Container>
   )
 }

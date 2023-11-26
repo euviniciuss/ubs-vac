@@ -1,9 +1,9 @@
 import { GlobalStyle, StyledProvider } from '@/presentation/external/styled'
 import StyledRegistry from '@/presentation/external/styled/registry/styledRegistry'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Poppins } from 'next/font/google'
 
-const inter = Inter({
+const inter = Poppins({
   weight: ['400', '500', '600', '700'],
   style: ['normal'],
   subsets: ['latin']
