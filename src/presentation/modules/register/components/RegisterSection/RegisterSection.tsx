@@ -1,3 +1,5 @@
+import { Input } from '@/presentation/shared/components/form'
+
 import { Header } from '../Header/Header'
 import * as S from './RegisterSection.styled'
 
@@ -14,7 +16,9 @@ export function RegisterSection() {
         </Header.TextContainer>
       </Header>
 
-      <h1>teste register</h1>
+      <S.FormSection>
+        <Input type="email" placeholder="Digite seu email" label="E-mail" />
+      </S.FormSection>
     </S.Container>
   )
 }
