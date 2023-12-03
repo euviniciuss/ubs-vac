@@ -42,7 +42,7 @@ export function HomeSection() {
           <Card.Title>Vacinação</Card.Title>
         </Card>
 
-        <Card href="/">
+        <Card href="/crianca">
           <PiBabyFill size={54} color="#3464CF" />
 
           <Card.Title>Perfil da Criança</Card.Title>
