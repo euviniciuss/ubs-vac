@@ -6,7 +6,7 @@ export const theme = {
     black500: '#1F1F1F',
     blue800: '#1040AB',
     blue700: '#3464CF',
-    blue50: '#3464CF',
+    blue50: '#E4E9F4',
     blue100: '#3464CF',
     blue200: '#59C9F3',
     green400: '#A0B33B',
