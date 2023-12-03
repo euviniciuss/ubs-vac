@@ -30,13 +30,13 @@ export function HomeSection() {
       </S.PresenationContainer>
 
       <S.CardsContainer>
-        <Card href="/">
+        <Card href="/calendario">
           <PiCalendarCheckFill size={54} color="#3464CF" />
 
           <Card.Title>Calendário Vacinal</Card.Title>
         </Card>
 
-        <Card href="/">
+        <Card href="/vacinacao">
           <PiSyringeFill size={38} color="#3464CF" />
 
           <Card.Title>Vacinação</Card.Title>

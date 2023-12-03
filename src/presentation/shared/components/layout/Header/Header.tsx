@@ -12,7 +12,7 @@ export function Header({ children }: Props) {
   return (
     <S.Container>
       <S.Content>
-        <Link href="/">
+        <Link href="/home">
           <PiArrowLeftBold size={24} color="#fff" />
         </Link>
 
