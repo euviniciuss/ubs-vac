@@ -18,7 +18,6 @@ export const Content = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 8rem;
 `
 
 export const Title = styled.h1`
@@ -26,4 +25,7 @@ export const Title = styled.h1`
   font-weight: 700;
   color: ${theme.colors.white};
   text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 `
