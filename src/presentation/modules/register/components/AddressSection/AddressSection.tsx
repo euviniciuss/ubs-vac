@@ -6,9 +6,9 @@ import { Button, Input } from '@/presentation/shared/components/form'
 
 import { Form } from '../Form/Form'
 import { Header } from '../Header/Header'
-import * as S from './PersonalDataSection.styled'
+import * as S from './AddressSection.styled'
 
-export function PersonalDataSection() {
+export function AddressSection() {
   return (
     <S.Container>
       <Header>
@@ -22,22 +22,22 @@ export function PersonalDataSection() {
       </Header>
 
       <Form.Root>
-        <Form.Title>DADOS PESSOAIS</Form.Title>
+        <Form.Title>ENDEREÇO</Form.Title>
         <Form.InputContainer>
-          <Input type="text" placeholder="Digite seu nome" label="Nome" />
-          <Input type="text" placeholder="000000000000-0" label="RG" />
-          <Input type="text" placeholder="000.000.000-00" label="CPF" />
+          <Input type="text" placeholder="Informe a cidade" label="Cidade" />
+          <Input type="text" placeholder="Informe o estado" label="Estado" />
           <Input
             type="text"
-            placeholder="DD/MM/AAAA"
-            label="Data de nascimento"
+            placeholder="Informe o logradouro"
+            label="Logradouro"
           />
-          <Input type="text" placeholder="Selecione seu sexo" label="Sexo" />
-          <Input type="text" placeholder="(00) 0000-0000" label="Telefone" />
-          <Input type="text" placeholder="(00) 0000-0000" label="Celular" />
+          <Input type="text" placeholder="Informe o bairro" label="Bairro" />
+          <Input type="text" placeholder="555555-555" label="CEP" />
+          <Input type="number" placeholder="Número da casa" label="Número" />
+          <Input type="text" placeholder="Complemento" label="Complemento" />
         </Form.InputContainer>
 
-        <Link href="/cadastro/endereco">
+        <Link href="/home">
           <Button>CONTINUAR</Button>
         </Link>
       </Form.Root>

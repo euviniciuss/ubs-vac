@@ -3,7 +3,7 @@ import { InputHTMLAttributes } from 'react'
 import * as S from './Input.styled'
 
 type Props = {
-  type: 'text' | 'password' | 'email'
+  type: 'text' | 'password' | 'email' | 'number'
   label: string
   placeholder: string
 } & InputHTMLAttributes<HTMLInputElement>
