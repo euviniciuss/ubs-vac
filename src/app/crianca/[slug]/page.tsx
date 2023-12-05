@@ -1,3 +1,5 @@
+'use client'
+
 import { DetailsChildSection } from '@/presentation/modules/child/components/DetailsChildSection/DetailsChildSection'
 import { Page } from '@/presentation/shared/components/layout'
 

@@ -1,3 +1,5 @@
+'use client'
+
 import { MarcoSection } from '@/presentation/modules/child/components/MarcoSection/MarcoSection'
 import { Page } from '@/presentation/shared/components/layout'
 

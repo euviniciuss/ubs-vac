@@ -1,3 +1,5 @@
+'use client'
+
 import { VaccinationSection } from '@/presentation/modules/vaccination/components/VaccinationSection/VaccinationSection'
 import { Page } from '@/presentation/shared/components/layout'
 

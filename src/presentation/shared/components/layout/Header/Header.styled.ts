@@ -20,6 +20,18 @@ export const Content = styled.div`
   align-items: center;
 `
 
+export const NavigationContainer = styled.button`
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+  transition: filter 0.2s ease;
+
+  &:hover {
+    filter: brightness(0.9);
+  }
+`
+
 export const Title = styled.h1`
   font-size: 1.8rem;
   font-weight: 700;
