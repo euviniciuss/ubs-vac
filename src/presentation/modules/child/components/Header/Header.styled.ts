@@ -1,7 +1,5 @@
 'use client'
 
-import { theme } from '@/presentation/external/styled'
-
 import { styled } from 'styled-components'
 
 export const Container = styled.header`

@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { ReactNode } from 'react'
 import { PiArrowLeftBold } from 'react-icons/pi'
 
 import BackgroundHeader from '@/public/background-radius.svg'
