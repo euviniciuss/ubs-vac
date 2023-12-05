@@ -7,7 +7,7 @@ export default function Perfil() {
   return (
     <>
       <Page.Header>
-        <Page.Header.Title>Perfil da Criança</Page.Header.Title>
+        <Page.Header.Title>Perfil</Page.Header.Title>
       </Page.Header>
       <Page.Main>
         <PerfilSection />
