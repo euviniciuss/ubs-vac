@@ -28,7 +28,7 @@ export function HomeSection() {
           </p>
         </S.TextContainer>
 
-        <Image src={Ilustration} alt="Ilustração home" />
+        <Image src={Ilustration} alt="Ilustração home" width={132} />
       </S.PresenationContainer>
 
       <S.CardsContainer>

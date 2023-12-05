@@ -12,5 +12,5 @@ export const Content = styled.section`
   height: 100%;
   flex-direction: column;
   justify-content: center;
-  padding: 0 5.2rem;
+  padding: 0 3rem;
 `
