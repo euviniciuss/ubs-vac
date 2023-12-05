@@ -1,10 +1,12 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import {
   PiCalendarCheckFill,
   PiSyringeFill,
   PiBabyFill,
   PiClipboardTextFill,
-  PiPlusBold
+  PiPlusBold,
+  PiUserBold
 } from 'react-icons/pi'
 
 import { Button } from '@/presentation/shared/components/form'
@@ -56,8 +58,14 @@ export function HomeSection() {
       </S.CardsContainer>
 
       <S.Action>
+        <Link href="/perfil">
+          <Button color="secondary" size="small" textColor="blue">
+            Acessar perfil <PiUserBold color="#3464CF" />
+          </Button>
+        </Link>
+
         <Button color="secondary" size="small" textColor="blue">
-          Acionar criança <PiPlusBold color="#3464CF" />
+          Adcionar criança <PiPlusBold color="#3464CF" />
         </Button>
       </S.Action>
     </S.Container>

@@ -53,7 +53,7 @@ export const CardsContainer = styled.div`
 export const Action = styled.div`
   width: 100%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-content: center;
   margin-top: 2.8rem;
 `
