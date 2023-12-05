@@ -44,7 +44,7 @@ export function HomeSection() {
               </Button>
 
               <p>
-                Já posssui uma conta? <Link href="/">Faça o login!</Link>
+                Já posssui uma conta? <Link href="/login">Faça o login!</Link>
               </p>
             </S.Actions>
           </S.ActionContent>

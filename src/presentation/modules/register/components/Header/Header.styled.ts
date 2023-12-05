@@ -10,6 +10,20 @@ export const Container = styled.header`
   flex-direction: column;
   padding: 4rem 0rem;
 `
+export const NavigationContainer = styled.button`
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+  transition: filter 0.2s ease;
+
+  display: flex;
+
+  &:hover {
+    filter: brightness(0.9);
+  }
+`
+
 export const TextContainer = styled.div`
   width: 100%;
   display: flex;

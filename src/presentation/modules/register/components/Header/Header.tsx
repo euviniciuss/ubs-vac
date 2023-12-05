@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import { useRouter } from 'next/navigation'
 import { ReactNode } from 'react'
 import { PiArrowLeftBold } from 'react-icons/pi'
 
@@ -9,11 +9,17 @@ type Props = {
 }
 
 export function Header({ children }: Props) {
+  const router = useRouter()
+
+  function goBack() {
+    router.back()
+  }
+
   return (
     <S.Container>
-      <Link href="/">
+      <S.NavigationContainer onClick={goBack}>
         <PiArrowLeftBold size={28} color="#1040AB" />
-      </Link>
+      </S.NavigationContainer>
 
       {children}
 

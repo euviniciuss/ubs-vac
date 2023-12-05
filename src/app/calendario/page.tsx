@@ -1,3 +1,5 @@
+'use client'
+
 import { CalendarSection } from '@/presentation/modules/calendar/components/CalendarSection/CalendarSection'
 import { Page } from '@/presentation/shared/components/layout'
 
