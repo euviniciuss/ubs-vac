@@ -1,14 +1,20 @@
-import Link from 'next/link'
+import { useRouter } from 'next/navigation'
 import { PiArrowLeftBold } from 'react-icons/pi'
 
 import * as S from './DetailsSection.styled'
 
 export function DetailsSection() {
+  const router = useRouter()
+
+  function goBack() {
+    router.back()
+  }
+
   return (
     <S.Container>
-      <Link href="/vacinacao">
+      <S.NavigationContainer onClick={goBack}>
         <PiArrowLeftBold size={28} color="#1040AB" />
-      </Link>
+      </S.NavigationContainer>
 
       <S.Main>
         <S.TitleContainer>

@@ -64,9 +64,11 @@ export function HomeSection() {
           </Button>
         </Link>
 
-        <Button color="secondary" size="small" textColor="blue">
-          Adcionar criança <PiPlusBold color="#3464CF" />
-        </Button>
+        <Link href="/crianca">
+          <Button color="secondary" size="small" textColor="blue">
+            Adcionar criança <PiPlusBold color="#3464CF" />
+          </Button>
+        </Link>
       </S.Action>
     </S.Container>
   )

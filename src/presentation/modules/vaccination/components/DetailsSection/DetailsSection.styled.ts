@@ -10,7 +10,20 @@ export const Container = styled.div`
   padding-bottom: 2rem;
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
   gap: 3.9rem;
+`
+
+export const NavigationContainer = styled.button`
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  outline: none;
+  transition: filter 0.2s ease;
+
+  &:hover {
+    filter: brightness(0.9);
+  }
 `
 
 export const Main = styled.main`
