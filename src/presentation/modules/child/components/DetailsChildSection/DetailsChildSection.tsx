@@ -17,7 +17,7 @@ export function DetailsChildSection() {
         <S.Info>
           <h1>João Pedro Costa</h1>
 
-          <Link href="/">
+          <Link href="/crianca/marco">
             <S.LinkContainer>
               <p>Marcos de desenvolvimento</p>
               <PiCaretRightBold size={17} color="1040AB" />

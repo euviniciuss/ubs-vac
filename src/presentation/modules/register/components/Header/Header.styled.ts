@@ -31,6 +31,5 @@ export const Description = styled.p`
   opacity: 0.7;
 `
 export const Divider = styled.span`
-  background-color: red;
   border: 0.5px solid #d9d9d9;
 `
