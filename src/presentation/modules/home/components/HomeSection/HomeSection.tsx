@@ -48,7 +48,7 @@ export function HomeSection() {
           <Card.Title>Perfil da Criança</Card.Title>
         </Card>
 
-        <Card href="/">
+        <Card href="/agendamento">
           <PiClipboardTextFill size={38} color="#3464CF" />
 
           <Card.Title>Agendamento</Card.Title>

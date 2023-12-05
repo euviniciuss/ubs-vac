@@ -1,7 +1,8 @@
 'use client'
 
+import { Search } from '@/presentation/shared/components/form'
+
 import { Card } from '../Card/Card'
-import { Search } from '../Search/Search'
 import * as S from './VaccinationSection.styled'
 
 export function VaccinationSection() {
